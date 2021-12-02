@@ -49,5 +49,32 @@
         android:padding="20dp"
         android:text="官方cardview" />
 
+    <Button
+        android:id="@+id/btn_cardview_lcardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:padding="20dp"
+        android:text="lcardview" />
+
+    <Button
+        android:id="@+id/btn_cardview_cardviewfix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:padding="20dp"
+        android:text="cardviewfix" />
+
+    <Button
+        android:id="@+id/btn_cardview_mycardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:padding="20dp"
+        android:text="mycardview" />
+
 
 </LinearLayout>

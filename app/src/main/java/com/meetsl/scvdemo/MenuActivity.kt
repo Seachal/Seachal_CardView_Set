@@ -19,6 +19,10 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
         btn_cardview.setOnClickListener(this)
         btn_recyclerView.setOnClickListener(this)
         btn_dynamic_visible.setOnClickListener(this)
+
+        btn_cardview_lcardview.setOnClickListener(this)
+        btn_cardview_cardviewfix.setOnClickListener(this)
+        btn_cardview_mycardview.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -30,13 +34,22 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(Intent(this, CornerVisibilityActivity::class.java))
             }
             R.id.btn_cardview -> {
-                startActivity(Intent(this, CardViewActivity::class.java))
+                startActivity(Intent(this, CardViewActivityScardView::class.java))
             }
             R.id.btn_dynamic_visible -> {
                 startActivity(Intent(this, Issues17Activity::class.java))
             }
             R.id.btn_recyclerView -> {
                 startActivity(Intent(this, RecyclerViewActivity::class.java))
+            }
+            R.id.btn_cardview_lcardview -> {
+                startActivity(Intent(this, CardViewActivityLCardView::class.java))
+            }
+            R.id.btn_cardview_cardviewfix -> {
+                startActivity(Intent(this, CardViewActivityCardViewFix::class.java))
+            }
+            R.id.btn_cardview_mycardview -> {
+                startActivity(Intent(this, CardViewActivityMyCardView::class.java))
             }
         }
     }

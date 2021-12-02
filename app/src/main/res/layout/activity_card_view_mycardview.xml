@@ -10,16 +10,11 @@
     <androidx.cardview.widget.CardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_margin="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardElevation="@dimen/cardview_elevation"
-        >
+        app:cardMaxElevation="15dp"
+        app:cardElevation="@dimen/cardview_elevation">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -84,7 +79,7 @@
             android:src="@mipmap/home_back" />
     </androidx.cardview.widget.CardView>
 
-    <com.meetsl.scardview.SCardView
+    <cn.wj.android.colorcardview.CardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
         android:layout_alignParentRight="true"
@@ -103,5 +98,5 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@mipmap/home_back" />
-    </com.meetsl.scardview.SCardView>
+    </cn.wj.android.colorcardview.CardView>
 </RelativeLayout>

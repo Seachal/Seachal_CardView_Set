@@ -17,10 +17,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".CardViewActivity" />
+        <activity android:name=".CardViewActivityScardView" />
         <activity android:name=".CornerVisibilityActivity" />
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".Issues17Activity" />
+
+        <activity android:name=".CardViewActivityMyCardView" />
+        <activity android:name=".CardViewActivityLCardView" />
+        <activity android:name=".CardViewActivityCardViewFix" />
     </application>
 
 </manifest>
