@@ -99,9 +99,8 @@
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
         app:cardElevation="@dimen/cardview_elevation"
-        app:cardShadowStartColor="@android:color/holo_green_dark"
         app:cardShadowEndColor="@android:color/holo_red_dark"
-        >
+        app:cardShadowStartColor="@android:color/holo_green_dark">
 
         <ImageView
             android:layout_width="wrap_content"

@@ -97,8 +97,7 @@
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
         app:cardElevation="@dimen/cardview_elevation"
-        app:cardShadowStartColor="@color/color10FF8535"
-        >
+        app:cardShadowStartColor="@color/color10FF8535">
 
         <ImageView
             android:layout_width="wrap_content"

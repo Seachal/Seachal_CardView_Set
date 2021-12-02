@@ -23,6 +23,8 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
         btn_cardview_lcardview.setOnClickListener(this)
         btn_cardview_cardviewfix.setOnClickListener(this)
         btn_cardview_mycardview.setOnClickListener(this)
+
+        all_cardview.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -50,6 +52,9 @@ class MenuActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btn_cardview_mycardview -> {
                 startActivity(Intent(this, CardViewActivityMyCardView::class.java))
+            }
+            R.id.all_cardview -> {
+                startActivity(Intent(this, CardViewActivityAll::class.java))
             }
         }
     }

@@ -7,18 +7,21 @@
     android:background="@android:color/holo_purple"
     tools:context=".MainActivity">
 
-
-    <androidx.cardview.widget.CardView
+    <com.meetsl.scardview.SCardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
         android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
         app:cardElevation="@dimen/cardview_elevation"
-        app:cardMaxElevation="15dp">
+        app:cardShadowEndColor="@android:color/holo_red_dark"
+        app:cardShadowStartColor="@android:color/holo_green_dark">
+
 
         <TextView
             android:layout_width="match_parent"
@@ -28,25 +31,31 @@
             android:gravity="center"
             android:background="@android:color/holo_red_dark"
             />
-    </androidx.cardview.widget.CardView>
+    </com.meetsl.scardview.SCardView>
 
-    <androidx.cardview.widget.CardView
+    <cn.wj.android.colorcardview.CardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="20dp"
         android:layout_marginRight="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardElevation="@dimen/cardview_elevation">
+        app:cardElevation="8dp"
+        app:cardShadowColorEnd="@android:color/holo_red_dark"
+        app:cardShadowColorStart="@android:color/holo_green_dark">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:src="@mipmap/home_back" />
-    </androidx.cardview.widget.CardView>
+            android:text="mycardview"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            />
+    </cn.wj.android.colorcardview.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="@dimen/card_size"
@@ -56,35 +65,37 @@
         app:cardCornerRadius="5dp"
         app:cardElevation="@dimen/cardview_elevation">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+          <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:src="@mipmap/home_back" />
+            android:text="官方控件"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            />
     </androidx.cardview.widget.CardView>
 
 
-    <androidx.cardview.widget.CardView
+    <www.linwg.org.lib.LCardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
-        app:cardBackgroundColor="@android:color/transparent"
+        app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardElevation="@dimen/cardview_elevation">
+        app:cardElevation="@dimen/cardview_elevation"
+        app:cardShadowStartColor="@color/color10FF8535">
 
-        <TextView
+    <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#98ffffff" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@mipmap/home_back" />
-    </androidx.cardview.widget.CardView>
+            android:text="LCardView"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            />
+    </www.linwg.org.lib.LCardView>
 
 <!--    此控件有白边 -->
     <com.bigman.wmzx.customcardview.library.CardView
@@ -101,10 +112,13 @@
         app:cardCornerRadius="5dp"
         app:cardElevation="@dimen/cardview_elevation">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+          <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:src="@mipmap/home_back" />
+            android:text="fix"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            />
     </com.bigman.wmzx.customcardview.library.CardView>
 </RelativeLayout>
