@@ -4,77 +4,99 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_shadow_direction"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:padding="20dp"
-        android:text="阴影方向" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn_corner_visibility"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:padding="20dp"
-        android:text="边角可见性" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_recyclerView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:padding="20dp"
-        android:text="RecyclerView Demo" />
+            <Button
+                android:id="@+id/btn_shadow_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="阴影方向"
+                android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btn_dynamic_visible"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:padding="20dp"
-        android:text="Dynamic Add" />
+            <Button
+                android:id="@+id/btn_corner_visibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="边角可见性"
+                android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btn_cardview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:padding="20dp"
-        android:text="官方cardview" />
+            <Button
+                android:id="@+id/btn_recyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="RecyclerView Demo"
+                android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btn_cardview_lcardview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:padding="20dp"
-        android:text="lcardview" />
+            <Button
+                android:id="@+id/btn_dynamic_visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="Dynamic Add"
+                android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btn_cardview_cardviewfix"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:padding="20dp"
-        android:text="cardviewfix" />
+            <Button
+                android:id="@+id/btn_cardview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="官方cardview"
+                android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btn_cardview_mycardview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="25dp"
-        android:padding="20dp"
-        android:text="mycardview" />
+            <Button
+                android:id="@+id/btn_cardview_lcardview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="lcardview"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_cardview_cardviewfix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="cardviewfix"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_cardview_mycardview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:padding="20dp"
+                android:text="mycardview"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
 
 
 </LinearLayout>

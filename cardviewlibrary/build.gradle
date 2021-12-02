@@ -1,9 +1,11 @@
 apply plugin: 'com.android.library'
-
 apply plugin: 'kotlin-android'
 
+apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
+
+
 
     defaultConfig {
         minSdkVersion 19
@@ -22,16 +24,19 @@ android {
         }
     }
 
+//    compileOptions {
+//        targetCompatibility 1.8
+//        sourceCompatibility 1.8
+//    }
     compileOptions { // JDK版本
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
 }
 
 dependencies {
-
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.cardview:cardview:1.0.0'
 }

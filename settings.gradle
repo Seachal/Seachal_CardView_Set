@@ -1,1 +1,1 @@
-include ':app', ':scardview',":third-part-color-cardview"
+include ':app', ':scardview',":third-part-color-cardview" ,":cardviewlibrary"

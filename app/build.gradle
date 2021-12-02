@@ -8,7 +8,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.meetsl.scardview"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -19,6 +19,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    compileOptions { // JDK版本
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
@@ -32,12 +37,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation project(':scardview')
+    implementation project(':cardviewlibrary')
     implementation project(':third-part-color-cardview')
 //    implementation 'io.github.meetsl:SCardView:1.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     implementation 'androidx.recyclerview:recyclerview:1.1.0-beta04'
 
-    implementation 'com.github.bigmanLau:CardviewFix:1.0.3'
+//    implementation 'com.github.bigmanLau:CardviewFix:1.0.3'
 
     implementation 'org.linwg1988:lcardview:1.5.4'
+
+
 }
