@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_purple"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -18,7 +18,7 @@
         android:layout_marginBottom="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardElevation="@dimen/cardview_elevation">
+        app:cardElevation="18dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -95,7 +95,10 @@
         android:layout_marginBottom="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardElevation="@dimen/cardview_elevation">
+        app:cardElevation="@dimen/cardview_elevation"
+        app:cardShadowStartColor="@android:color/holo_green_dark"
+        app:cardShadowEndColor="@android:color/holo_red_dark"
+        >
 
         <ImageView
             android:layout_width="wrap_content"

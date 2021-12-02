@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_purple"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -19,7 +19,7 @@
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
         app:cardElevation="@dimen/cardview_elevation"
-        app:cardMaxElevation="15dp">
+        >
 
         <ImageView
             android:layout_width="wrap_content"

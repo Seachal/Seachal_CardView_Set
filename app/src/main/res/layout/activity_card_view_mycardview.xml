@@ -4,17 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_purple"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardMaxElevation="15dp"
-        app:cardElevation="@dimen/cardview_elevation">
+        app:cardElevation="@dimen/cardview_elevation"
+        >
 
         <ImageView
             android:layout_width="wrap_content"
@@ -91,10 +94,9 @@
         android:layout_marginBottom="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardElevation="1dp"
+        app:cardElevation="8dp"
         app:cardShadowColorEnd="@android:color/holo_red_dark"
-        app:cardShadowColorStart="@android:color/holo_green_dark"
-        >
+        app:cardShadowColorStart="@android:color/holo_green_dark">
 
         <ImageView
             android:layout_width="wrap_content"
