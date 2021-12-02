@@ -4,39 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@android:color/holo_purple"
     tools:context=".MainActivity">
+
 
     <androidx.cardview.widget.CardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
         android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardElevation="38dp"
-        app:cardMaxElevation="38dp"
-        app:cardPreventCornerOverlap="true"
-        >
+        app:cardElevation="@dimen/cardview_elevation"
+        app:cardMaxElevation="15dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:src="@mipmap/home_back" />
+            android:text="官方控件"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
-        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="100dp"
+        android:layout_marginRight="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
         app:cardElevation="@dimen/cardview_elevation">
@@ -86,7 +86,8 @@
             android:src="@mipmap/home_back" />
     </androidx.cardview.widget.CardView>
 
-    <com.meetsl.scardview.SCardView
+<!--    此控件有白边 -->
+    <com.bigman.wmzx.customcardview.library.CardView
         android:layout_width="@dimen/card_size"
         android:layout_height="@dimen/card_size"
         android:layout_alignParentRight="true"
@@ -98,15 +99,12 @@
         android:layout_marginBottom="20dp"
         app:cardBackgroundColor="@android:color/holo_blue_light"
         app:cardCornerRadius="5dp"
-        app:cardElevation="@dimen/cardview_elevation"
-        app:cardShadowStartColor="@android:color/holo_green_dark"
-        app:cardShadowEndColor="@android:color/holo_red_dark"
-        >
+        app:cardElevation="@dimen/cardview_elevation">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@mipmap/home_back" />
-    </com.meetsl.scardview.SCardView>
+    </com.bigman.wmzx.customcardview.library.CardView>
 </RelativeLayout>

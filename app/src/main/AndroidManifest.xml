@@ -25,6 +25,7 @@
         <activity android:name=".CardViewActivityMyCardView" />
         <activity android:name=".CardViewActivityLCardView" />
         <activity android:name=".CardViewActivityCardViewFix" />
+        <activity android:name=".CardViewActivityAll" />
     </application>
 
 </manifest>
